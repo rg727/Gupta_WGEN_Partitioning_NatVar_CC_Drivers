@@ -1,5 +1,6 @@
 # Gupta_WGEN_Partitioning_NatVar_CC_Drivers
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7693324.svg)](https://doi.org/10.5281/zenodo.7693324)
 
 This repository contains example code and data for the following paper:
 
