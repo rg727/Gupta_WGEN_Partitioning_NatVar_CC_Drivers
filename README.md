@@ -4,7 +4,7 @@
 
 This repository contains example code and data for the following paper:
 
-Gupta, R.S., Steinschneider,S. & Reed, P.M. (2023). Understanding Contributions of Paleo-Informed Natural Variability and Climate Changes on Hydroclimate Extremes in the Central Valley region of California (in review).
+Gupta, R.S., Steinschneider,S. & Reed, P.M. (2023). Understanding Contributions of Paleo-Informed Natural Variability and Climate Changes on Hydroclimate Extremes in the Central Valley region of California (Accepted in Earth's Future).
 
 ## Contents
 
