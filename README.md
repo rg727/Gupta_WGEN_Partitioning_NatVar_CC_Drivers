@@ -19,19 +19,19 @@ Below we provide steps and code (and example data where possible) that are appli
 * Output Product: a matrix of 50 ensembles of 600-year (daily resolution) Monte Carlo chains of weather regimes <br />
 
 
-### Step 2: Run the baseline weather generator
+### Step 2: Run the Baseline Weather Generator
 * Folder: `./WGEN` <br />
 * Input Data: `TLG_Prcp.txt`, `TLG_Temp.txt` (regional, historic, precipitation and temperature for the Tuolumne Basin), the MC chains from step 1 (too big to share, ask if needed) <br />
 * Scripts: `config.wgen.simulations.R`, `run_generator.sh` (bash script for a cluster), helper functions <br />
 * Description: We have the weather generator set up to run across the five sub-basins in the study, but we’re just sharing an example script for running the generator for the Tuolumne basin. Helper functions are included. The most up to date (and generalized) generator can be found here: https://github.com/nassernajibi/WGEN-v2.0 . As the chains of WRs are read in, local weather from the historical period is bootstrapped for the cold season (November – April). The whole warm season for each year (May-October) is bootstrapped randomly from the historical data (since WRs aren’t active during this time). <br />
 * Output Product: .rds files of precipitation, tmin, and tmax for each grid cell, for the whole 600-year period (too large to share, ask if needed)<br />
-### Step 3: Apply climate change perturbations  
+### Step 3: Apply Climate Change Perturbations  
 * Folder: `./CC_Changes`<br />
 * Input Data: the temperature and precipitation .rds files from Step 2 (too big to share)<br />
 * Scripts: `perturb.R`, helper functions, bash scripts for cluster submission<br />
 * Description: This script takes the baseline weather and applies specified climate changes to it (either temperature shifts or precipitation scaling). <br />
 * Output Product: Creates parquet files for each grid cell, for the 50 ensemble members for each climate scenario (combinations of temperature trend/cc scaling). <br /> 
-### Step 4: Run the hydrologic model 
+### Step 4: Run the Hydrologic Model 
 * Folder: `./Hydrologic_Modeling`<br />
 * Input Data: the parquet files of temperature and precipitation from Step 3<br />
 * Scripts: `run_sacsma.m`, helper functions and data, bash scripts for cluster submission<br />
