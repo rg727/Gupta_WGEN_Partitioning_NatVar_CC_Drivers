@@ -1,10 +1,14 @@
-# Gupta_WGEN_Partitioning_NatVar_CC_Drivers
+# Gupta-etal-2023-EarthsFuture
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7693324.svg)](https://doi.org/10.5281/zenodo.7693324)
 
 This repository contains example code and data for the following paper:
 
-Gupta, R.S., Steinschneider,S. & Reed, P.M. (2023). Understanding Contributions of Paleo-Informed Natural Variability and Climate Changes on Hydroclimate Extremes in the Central Valley region of California (Accepted in Earth's Future).
+Gupta, R.S., Steinschneider,S. & Reed, P.M. (2023). Understanding Contributions of Paleo-Informed Natural Variability and Climate Changes on Hydroclimate Extremes in the San Joaquin Valley of California (Accepted in Earth's Future).
+
+## Abstract
+To aid California’s water sector to better understand and manage future climate extremes, we present a method for creating a regionally consistent ensemble of plausible daily future climate and streamflow scenarios that represent natural climate variability captured in a network of tree-ring chronologies, and then embed anthropogenic climate change trends within those scenarios. We use 600 years of paleo-reconstructed weather regimes to force a stochastic weather generator, which we develop for five subbasins in the San Joaquin Valley of California. To assess the compound effects of climate change, we create temperature series that reflect projected scenarios of warming and precipitation series that have been scaled to reflect thermodynamically driven shifts in the distribution of daily precipitation. We then use these weather scenarios to force hydrologic models for each of the five subbasins. The paleo-forced streamflow scenarios highlight periods in the region’s past that produce flood and drought extremes that surpass those in the modern record and exhibit large non-stationarity through the reconstruction. Variance decomposition is employed to characterize the contribution of natural variability and climate change to variability in decision-relevant metrics related to floods and drought. Our results show that a large portion of variability in individual subbasin and spatially compounding extreme events can be attributed to natural variability, but that anthropogenic climate changes become more influential at longer planning horizons. The joint importance of climate change and natural variability in shaping extreme floods and droughts is critical to resilient water systems planning and management in the San Joaquin.
+
 
 ## Contents
 
